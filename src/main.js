@@ -12,21 +12,7 @@ import axios from 'axios'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 ///////////////////////////////////////////////
-//import Notifications from 'vue-notification'
-// var express = require('express');
-// var app = express();
 
-
-
-// You can find your project ID in your Dialogflow agent settings
-// const projectId = 'newagent-d054f'; //https://dialogflow.com/docs/agents#settings
-// const sessionId = 'quickstart-session-id';
-// const query = 'hello';
-//const languageCode = 'en-US';
-// Instantiate a DialogFlow client.
-// const dialogflow = require('dialogflow');
-// const sessionClient = new dialogflow.SessionsClient();
-//Vue.use(DialogFlow);
 /////////////////////////////////////////////////////////////////////////
 Vue.use(Vuetify);
 Vue.use(VueRouter);
@@ -52,7 +38,6 @@ const router = new VueRouter({
   mode: 'history'
 });
 
-///////////////////////////////////////////////////////////C:\Users\shs07\Desktop\zolpp\NewAgent-042808f317f3.json
 
 Vue.config.productionTip = false
 
